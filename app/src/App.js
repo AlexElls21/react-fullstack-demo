@@ -55,8 +55,8 @@ class App extends Component {
 }
 
  //--------------------------------------------
- 
-//Below is another way to have the data displayed immediately after it is posted instead of doing a second axios.get like was done above. 
+
+//Below is another way to have the data displayed immediately after it is posted to your database instead of doing a second axios.get like was done above. 
 
   // addNewSuperhero() {
   //   var hero = {
