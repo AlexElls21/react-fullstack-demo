@@ -54,6 +54,27 @@ class App extends Component {
   })
 }
 
+ //--------------------------------------------
+ 
+//Below is another way to have the data displayed immediately after it is posted instead of doing a second axios.get like was done above. 
+
+  // addNewSuperhero() {
+  //   var hero = {
+  //     name: this.state.name,
+  //     power: this.state.power
+  //   }
+  //   axios.post('http://localhost:3010/api/addsuperhero', hero).then((res) => {
+  //     if(res.status === 200){
+  //       this.setState({
+  //         superheroes: [...this.state.superheroes, hero]
+  //       })
+  //     }
+  //   })
+  // }
+
+
+  //--------------------------------------------
+
   render() {
 
     var heroes = this.state.superheroes.map((hero, i) => {
